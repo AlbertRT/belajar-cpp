@@ -61,6 +61,12 @@ build CMakeFiles/osn_simulasi.dir/Introduction/Main.cpp.obj: CXX_COMPILER__osn_s
   OBJECT_DIR = CMakeFiles\osn_simulasi.dir
   OBJECT_FILE_DIR = CMakeFiles\osn_simulasi.dir\Introduction
 
+build CMakeFiles/osn_simulasi.dir/Materi/Function/Function.cpp.obj: CXX_COMPILER__osn_simulasi_Debug D$:/code/C++/belajar-cpp/Materi/Function/Function.cpp || cmake_object_order_depends_target_osn_simulasi
+  DEP_FILE = CMakeFiles\osn_simulasi.dir\Materi\Function\Function.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always -std=gnu++14
+  OBJECT_DIR = CMakeFiles\osn_simulasi.dir
+  OBJECT_FILE_DIR = CMakeFiles\osn_simulasi.dir\Materi\Function
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target osn_simulasi
@@ -69,7 +75,7 @@ build CMakeFiles/osn_simulasi.dir/Introduction/Main.cpp.obj: CXX_COMPILER__osn_s
 #############################################
 # Link the executable osn_simulasi.exe
 
-build osn_simulasi.exe: CXX_EXECUTABLE_LINKER__osn_simulasi_Debug CMakeFiles/osn_simulasi.dir/D_/code/C++/osn-simulasi/Main.cpp.obj CMakeFiles/osn_simulasi.dir/Introduction/Main.cpp.obj
+build osn_simulasi.exe: CXX_EXECUTABLE_LINKER__osn_simulasi_Debug CMakeFiles/osn_simulasi.dir/D_/code/C++/osn-simulasi/Main.cpp.obj CMakeFiles/osn_simulasi.dir/Introduction/Main.cpp.obj CMakeFiles/osn_simulasi.dir/Materi/Function/Function.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\osn_simulasi.dir

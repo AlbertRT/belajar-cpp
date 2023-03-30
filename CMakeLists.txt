@@ -4,4 +4,4 @@ project(osn_simulasi)
 set(CMAKE_CXX_STANDARD 14)
 
 add_executable(osn_simulasi
-        ../osn-simulasi/Main.cpp Introduction/Main.cpp)
+        ../osn-simulasi/Main.cpp Introduction/Main.cpp Materi/Function/Function.cpp)

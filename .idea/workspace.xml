@@ -21,14 +21,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a6f0ca86-1650-4b56-a34b-7cf27a4699f5" name="Changes" comment="IF &amp; For Loop">
-      <change afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Materi/Function/Function.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Aritmatika/Aritmatika.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Materi/Aritmatika/Aritmatika.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Aritmatika/Aritmatika.exe" beforeDir="false" afterPath="$PROJECT_DIR$/Materi/Aritmatika/Aritmatika.exe" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/IF/if.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Materi/IF/if.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/IF/if.exe" beforeDir="false" afterPath="$PROJECT_DIR$/Materi/IF/if.exe" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Variable/Variable.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Materi/Variable/Variable.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Variable/Variable.exe" beforeDir="false" afterPath="$PROJECT_DIR$/Materi/Variable/Variable.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/codemodel-v2-e35f505ba7ff92fb2c23.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/index-2023-03-30T10-47-39-0762.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/target-osn_simulasi-Debug-983aae0cc84787cd2c29.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-Debug-log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-Debug-log.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/build.ninja" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/build.ninja" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,7 +63,7 @@
     "WebServerToolWindowFactoryState": "false",
     "cf.first.check.clang-format": "false",
     "cidr.known.project.marker": "true",
-    "last_opened_file_path": "D:/code/C++/belajar-cpp",
+    "last_opened_file_path": "D:/code/C++/belajar-cpp/Materi/Function/Function.cpp",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -79,9 +80,9 @@
     </key>
   </component>
   <component name="RunManager" selected="C/C++ File.compiled">
-    <configuration default="true" type="CLionExternalRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true">
+    <configuration default="true" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true">
       <method v="2">
-        <option name="CLION.EXTERNAL.BUILD" enabled="true" />
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
     <configuration name="osn_simulasi" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="osn_simulasi" TARGET_NAME="osn_simulasi" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="osn_simulasi" RUN_TARGET_NAME="osn_simulasi">
@@ -113,6 +114,7 @@
       <workItem from="1680088955647" duration="366000" />
       <workItem from="1680163357469" duration="29000" />
       <workItem from="1680173075595" duration="183000" />
+      <workItem from="1680174281973" duration="370000" />
     </task>
     <task id="LOCAL-00001" summary="IF &amp; For Loop">
       <created>1680002107279</created>
