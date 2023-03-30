@@ -1,5 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="CMakePresetLoader">{
   &quot;useNewFormat&quot;: true
 }</component>
@@ -7,7 +10,9 @@
     <option name="reloaded" value="true" />
   </component>
   <component name="CMakeRunConfigurationManager">
-    <generated />
+    <generated>
+      <config projectName="osn_simulasi" targetName="osn_simulasi" />
+    </generated>
   </component>
   <component name="CMakeSettings">
     <configurations>
@@ -15,7 +20,16 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a6f0ca86-1650-4b56-a34b-7cf27a4699f5" name="Changes" comment="" />
+    <list default="true" id="a6f0ca86-1650-4b56-a34b-7cf27a4699f5" name="Changes" comment="IF &amp; For Loop">
+      <change afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Aritmatika/Aritmatika.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Materi/Aritmatika/Aritmatika.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Aritmatika/Aritmatika.exe" beforeDir="false" afterPath="$PROJECT_DIR$/Materi/Aritmatika/Aritmatika.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/IF/if.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Materi/IF/if.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/IF/if.exe" beforeDir="false" afterPath="$PROJECT_DIR$/Materi/IF/if.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Variable/Variable.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Materi/Variable/Variable.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Variable/Variable.exe" beforeDir="false" afterPath="$PROJECT_DIR$/Materi/Variable/Variable.exe" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -26,6 +40,9 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectApplicationVersion">
     <option name="ide" value="CLion" />
@@ -45,21 +62,43 @@
     "WebServerToolWindowFactoryState": "false",
     "cf.first.check.clang-format": "false",
     "cidr.known.project.marker": "true",
+    "last_opened_file_path": "D:/code/C++/belajar-cpp",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "terminal",
+    "settings.editor.selected.configurable": "CPPToolchains",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager">
-    <configuration default="true" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true">
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\code\C++\belajar-cpp" />
+      <recent name="D:\code\C++\belajar-cpp\Materi" />
+    </key>
+  </component>
+  <component name="RunManager" selected="C/C++ File.compiled">
+    <configuration default="true" type="CLionExternalRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true">
+      <method v="2">
+        <option name="CLION.EXTERNAL.BUILD" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="osn_simulasi" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="osn_simulasi" TARGET_NAME="osn_simulasi" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="osn_simulasi" RUN_TARGET_NAME="osn_simulasi">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
+    <configuration name="compiled" type="CppFileRunConfiguration" factoryName="CppFileRunConfiguration" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="belajar-cpp" TARGET_NAME="Aritmatika.cpp" CONFIG_NAME="compiled">
+      <option name="sourceFile" value="D:\code\C++\belajar-cpp\Materi\Aritmatika\Aritmatika.cpp" />
+      <method v="2">
+        <option name="com.jetbrains.cidr.cpp.runfile.CppFileBuildBeforeRunTaskProvider$BasicBuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="C/C++ File.compiled" />
+      <item itemvalue="CMake Application.osn_simulasi" />
+    </list>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -70,12 +109,27 @@
       <option name="presentableId" value="Default" />
       <updated>1680001516444</updated>
       <workItem from="1680001519086" duration="39000" />
-      <workItem from="1680001577627" duration="434000" />
+      <workItem from="1680001577627" duration="729000" />
+      <workItem from="1680088955647" duration="366000" />
+      <workItem from="1680163357469" duration="29000" />
+      <workItem from="1680173075595" duration="183000" />
     </task>
+    <task id="LOCAL-00001" summary="IF &amp; For Loop">
+      <created>1680002107279</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1680002107279</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="IF &amp; For Loop" />
+    <option name="LAST_COMMIT_MESSAGE" value="IF &amp; For Loop" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
